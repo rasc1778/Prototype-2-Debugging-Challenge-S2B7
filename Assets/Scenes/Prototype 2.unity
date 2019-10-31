@@ -516,7 +516,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 610afbb40c4385d42aa33adfe3531f0a, type: 3}
       propertyPath: m_Name
-      value: SimpleFarmer_Daughter_Brown
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 610afbb40c4385d42aa33adfe3531f0a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -767,6 +767,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 957efc93c4488964582c89c0bf939bf0, type: 3}
+--- !u!1 &2021417466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 610afbb40c4385d42aa33adfe3531f0a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1572011445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2021417467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021417466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2f81f20698649b8aac7df42511136c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axisName: Horizontal
+  speed: 10
+  bound: 8.75
+  horizontalInput: 0
 --- !u!1001 &2057159298
 PrefabInstance:
   m_ObjectHideFlags: 0
