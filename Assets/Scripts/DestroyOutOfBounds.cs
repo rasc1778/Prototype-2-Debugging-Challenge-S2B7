@@ -19,9 +19,7 @@ public class DestroyOutOfBounds : MonoBehaviour
     if (transform.position.z > topBound || transform.position.z < bottomBound)
     {
       Destroy(gameObject);
-      if (transform.position.z < bottomBound) {
-        Debug.Log("Game over - an animal got past you");
-      }
     }
+
   }
 }
