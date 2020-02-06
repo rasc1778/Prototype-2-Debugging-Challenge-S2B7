@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // Fling food.
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space));
         {
             // Launch projectile (food).
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
