@@ -181,6 +181,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50.000004, y: -60.000004, z: 0}
+--- !u!1 &266535214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8487419998530240302, guid: 31295fd3edfc54a02941bce2762fddf2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8487419999110834581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,7 +455,7 @@ MonoBehaviour:
   animalPrefabs:
   - {fileID: 1193757688251069222, guid: 20fb12b5ab65148a883ad8fcf81ec176, type: 3}
   - {fileID: 5057893327337155568, guid: d4e000e47daee4179bf3d95575eb315d, type: 3}
-  - {fileID: 8487419998530240302, guid: 31295fd3edfc54a02941bce2762fddf2, type: 3}
+  - {fileID: 266535214}
   spawnRangeX: 20
   spawnPosZ: 20
   spawnDelay: 2
